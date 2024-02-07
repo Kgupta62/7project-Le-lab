@@ -1,0 +1,907 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    width: 100%;
+    height: 903vh;
+    background-color: rgb(253, 194, 57);
+}
+
+#img1{
+    position: absolute;
+        height: 60%;
+        width: 70%;
+
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+#logo-hero{
+    position: absolute;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 10%;
+    height: 10%;
+}
+#side-bar{
+    position: absolute;
+    
+    width: 50%;
+    height: 2.3%;
+    top: 9%;
+    left: 25%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+.qwe{
+    position: relative;
+    
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#text1{
+    font-weight: 10000;
+    animation: txt2 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.1s  both;
+}
+.qwe:hover{
+    transform: scale(1.13);
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    border-bottom: 0.3px solid;
+}
+#text3{
+   font-weight: 500;
+  
+   animation: txt2 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0.8s  both;
+}
+
+#text4{
+    font-weight: 500;
+    animation-delay: 4s;
+    animation: txt2 0.9s cubic-bezier(0.19, 1, 0.22, 1) 1.1s  both;
+ }
+
+ #text5{
+    font-weight: 500;
+    animation-delay: 6s;
+    animation: txt2 1s cubic-bezier(0.19, 1, 0.22, 1) 1.6s  both;
+ }
+ 
+#text2{
+    font-weight: 500;
+    animation: txt2 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0.5s  both;
+ }
+ 
+ @keyframes txt2{
+     from{
+         top: -100%;
+         opacity: 0;
+     }
+     to{
+         top: 10%;
+         opacity: 1;
+     }
+ }
+ @keyframes txt1{
+    from{
+        top: -100%;
+        opacity: 0;
+    }
+    to{
+        top: 10%;
+        opacity: 1;
+    }
+}
+ @keyframes txt3{
+    from{
+        top: -100%;
+        opacity: 0;
+    }
+    to{
+        top: 10%;
+        opacity: 1;
+    }
+}
+@keyframes txt4{
+    from{
+        top: -100%;
+        opacity: 0;
+    }
+    to{
+        top: 10%;
+        opacity: 1;
+    }
+}
+@keyframes txt5{
+    from{
+        top: -100%;
+        opacity: 0;
+    }
+    to{
+        top: 10%;
+        opacity: 1;
+    }
+}
+ #down{
+     position: relative;
+     position: absolute;
+     position: fixed;
+     width: 20%;
+     height: 10%;
+     bottom: 5%;
+     right: 2%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ i{
+     width: 6vh;
+ }
+ #brow{
+     position: absolute;
+     width: 10%;
+     height: 5%;
+     bottom: 8%;
+     left: 7%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ #brow h4{
+     font-size: 12px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #img2{
+     position: absolute;
+     position: fixed;
+     bottom: 6.2%;
+     left: 5%;
+     width: 10%;
+     height: 10%;
+ }
+ #img3{
+     position: absolute;
+     position: fixed;
+     top: 3%;
+     right: 2.5%;
+     width: 13%;
+     height: 15%;
+ }
+#new{
+    position: relative;
+    position: absolute;
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new2{
+    position: relative;
+    position: absolute;
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new3{
+    position: relative;
+    position: absolute;
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new4{
+    position: relative;
+    position: absolute;
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    left: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new5{
+    
+    position: absolute;
+     width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    left: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ri-linkedin-fill{
+    position: absolute;
+    left: 15%;
+}
+.ri-instagram-line{
+    position: absolute;
+    left: 15%;
+}
+.ri-dribbble-line{
+    position: absolute;
+    left: 15%;
+}
+.ri-vimeo-fill{
+    position: absolute;
+    left: 15%;
+}
+.ri-youtube-fill{
+    position: absolute;
+    left: 15%;
+}
+#new:hover{
+ transform: scale(1.2); 
+ background-color: black; 
+ color: white;
+}
+#new2:hover{
+    transform: scale(1.2); 
+    background-color: black; 
+    color: white;
+   }
+
+#new3:hover{
+    transform: scale(1.2); 
+    background-color: black; 
+    color: white;
+   }
+
+#new4:hover{
+    transform: scale(1.2); 
+    background-color: black; 
+    color: white;
+   }
+#new5:hover{
+    transform: scale(1.2); 
+    background-color: black; 
+    color: white;
+   }
+#scroll{
+       position: absolute;
+       transform: translate(-50%,50%);
+       background-color: black;
+       width: 3vh;
+       height: 5vh;
+       border-radius: 40%;
+       bottom: 8%;
+       left: 50%;
+       opacity: 0.9;
+   }
+   #scroll1{
+    position: relative;
+    position: absolute;
+    bottom: 2%;
+    right: 47.2%;
+    transform: translate(-50%,-50%);
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    opacity: 0.8;
+
+   }
+#line{
+       position: relative;
+       position: absolute;
+       transform: translate(-50%,50%);
+       width: 3px;
+       background-color:white;
+        left: 48%;
+       animation: line 1.5s cubic-bezier(0.5, 1, 0.22, 1) 0s infinite  both;
+   }
+   @keyframes line{
+       0%{
+            top: 0%;
+            opacity: 0.8;
+            height: 0px;
+       }
+       100%{
+            top: 13%;
+            opacity: 0.8;
+            height: 8px;
+       }
+      
+    }
+#text7{
+    position: relative;
+    position: absolute;
+    width: 80%;
+    height: 73%;
+    left: 16%;
+    top: 102%;
+}
+#text8{
+    position: relative;
+    position: absolute;
+    color: white;
+    font-size: 210px;
+    left: -1%;
+    top: 26%;
+    letter-spacing: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: txt8 1s cubic-bezier(0.5, 1, 0.22, 1)  12s  both;
+    
+}
+
+#text9{
+    position: absolute;
+    color: black;
+    font-size: 76px;
+    left: 3%;
+    top: 72%;
+    letter-spacing: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: txt9 1s cubic-bezier(0.5, 1, 0.22, 1) 12s   both;
+}
+@keyframes txt8{
+    from{
+        left: -10%;
+        opacity: 0;
+    }
+    to{
+    left: -1%;
+    opacity: 1;
+    }
+}
+@keyframes txt9{
+    from{
+        left: 13%;
+        opacity: 0;
+    }
+    to{
+    left: 3%;
+    opacity: 1;
+    }
+}
+#img5{
+    position: absolute;
+    top: 205%;
+    left: 1vh;
+    height: 105%;
+}
+#img6{
+    position: relative;
+    position: absolute;
+    top: 222%;
+    left: 50%;
+    width: 22%;
+    animation: last 5s cubic-bezier(0.5, 1, 0.22, 1) 13s  both;
+    
+}
+@keyframes last{
+    from{
+     top: 300%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 222%;
+        opacity: 1;
+    }
+}
+#img7{
+    position: relative;
+    position: absolute;
+    background-color: transparent;
+    top: 250%;
+    left: 52%;
+    width: 23%;
+    height: 23%;
+    animation: last1 5s cubic-bezier(0.5, 1, 0.22, 1) 13s  both;
+}
+@keyframes last1{
+    from{
+     top: 360%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 250%;
+        opacity: 1;
+    }
+}
+
+#button{
+    position: relative;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    border-radius: 500px;
+    top: 20%;
+    left: 36%;
+   animation: butto 2s  cubic-bezier(0.5, 1, 0.22, 1) infinite both; 
+}
+@keyframes butto{
+    0%{
+        
+        height: 45%;
+        width: 65%;
+    }
+    50%{
+    height: 50%;
+    width: 70%;
+    }
+    100%{
+        height: 45%;
+        width: 65%;
+    }
+}
+#shadow{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.274);
+    height: 65%;
+    width: 75%;
+    top: 20%;
+    left: 36%;
+    border-radius: 500px;
+    transform: translate(-50%,-50%);
+    animation: shado 2s  cubic-bezier(0.5, 1, 0.22, 1)  infinite both;
+   
+}
+@keyframes shado{
+    0%{
+        
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+    50%{
+    height: 65%;
+    width: 75%;
+
+    }
+    100%{
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+#learn{
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 102%;
+    font-weight: 500;
+}
+#last2{
+    position: relative;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+     top: 277%;
+     left: 51%;  
+     animation: last 5s cubic-bezier(0.5, 1, 0.22, 1) 0.3s  both;     
+}
+@keyframes last{
+    from{
+     top: 400%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 277%;
+        opacity: 1;
+    }
+}
+#video1{
+    position: absolute;
+    top: 305%;
+    width: 92%;
+    left: 3.5%;
+    height: 105%;
+    
+}
+.ri-play-circle-line{
+     position: absolute;
+     top: 350%;
+     left: 48%;
+    font-size: 350%;
+    color: rgba(255, 255, 255, 0.785);
+
+}
+#img10{
+    position: absolute;
+    top: 469%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 75%;
+}
+#img11{
+    position: absolute;
+    top: 460%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+ width: 28%;   
+ animation: las2 5s cubic-bezier(0.5, 1, 0.22, 1) 17s  both;
+}
+@keyframes las2{
+    from{
+     top: 550%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 460%;
+        opacity: 1;
+    }
+}
+#img12{
+    position: absolute;
+    top: 483%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 28%;   
+    animation: las2 5s cubic-bezier(0.5, 1, 0.22, 1) 17s  both;
+    
+}
+@keyframes las2{
+    from{
+     top: 550%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 483%;
+        opacity: 1;
+    }
+}
+#button4{
+    position: relative;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    border-radius: 500px;
+    top: 20%;
+    left: 36%;
+   animation: butto4 2s  cubic-bezier(0.5, 1, 0.22, 1) infinite both; 
+}
+@keyframes butto4{
+    0%{
+        
+        height: 45%;
+        width: 65%;
+    }
+    50%{
+    height: 50%;
+    width: 70%;
+    }
+    100%{
+        height: 45%;
+        width: 65%;
+    }
+}
+#shadow3{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.274);
+    height: 65%;
+    width: 75%;
+    top: 20%;
+    left: 36%;
+    border-radius: 500px;
+    transform: translate(-50%,-50%);
+    animation: shado3 2s  cubic-bezier(0.5, 1, 0.22, 1)  infinite both;
+   
+}
+@keyframes shado3{
+    0%{
+        
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+    50%{
+    height: 65%;
+    width: 75%;
+
+    }
+    100%{
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+#learn2{
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 102%;
+    font-weight: 500;
+}
+#last4{
+    position: relative;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+     top: 500%;
+     left: 16%;  
+     animation: last4 5s cubic-bezier(0.5, 1, 0.22, 1) 0.3s  both;     
+}
+@keyframes last4{
+    from{
+     top: 550%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 500%;
+        opacity: 1;
+    }
+}
+#img13{
+    position: absolute;
+    top: 645%;
+    height: 70%;
+}
+#img14{
+    position: absolute;
+    top: 648%;
+    left: 48%;
+    height: 44%;
+    animation: las5 5s cubic-bezier(0.5, 1, 0.22, 1) 20s  both;
+}
+@keyframes las5{
+    from{
+     top: 750%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 648%;
+        opacity: 1;
+    }
+}
+#img15{
+    position: absolute;
+    top: 690%;
+    left: 46.5%;
+    height: 20%;
+    animation: las7 5s cubic-bezier(0.19, 1, 0.22, 1) 20s  both;
+}
+@keyframes las7{
+    from{
+     top: 750%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 690%;
+        opacity: 1;
+    }
+}
+#button10{
+    position: relative;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    border-radius: 500px;
+    top: 20%;
+    left: 36%;
+   animation: butto10 2s  cubic-bezier(0.5, 1, 0.22, 1) infinite both; 
+}
+@keyframes butto10{
+    0%{
+        
+        height: 45%;
+        width: 65%;
+    }
+    50%{
+    height: 50%;
+    width: 70%;
+    }
+    100%{
+        height: 45%;
+        width: 65%;
+    }
+}
+#shadow8{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.274);
+    height: 65%;
+    width: 75%;
+    top: 20%;
+    left: 36%;
+    border-radius: 500px;
+    transform: translate(-50%,-50%);
+    animation: shado8 2s  cubic-bezier(0.5, 1, 0.22, 1)  infinite both;
+   
+}
+@keyframes shado8{
+    0%{
+        
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+    50%{
+    height: 65%;
+    width: 75%;
+
+    }
+    100%{
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+#learn8{
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 102%;
+    font-weight: 500;
+}
+#last10{
+    position: relative;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+     top: 713%;
+     left: 48.3%;  
+     animation: last10 5s cubic-bezier(0.5, 1, 0.22, 1) 0.3s  both;     
+}
+@keyframes last10{
+    from{
+     top: 750%;
+     opacity: 0.2;
+    }
+    tp{
+        top: 713%;
+        opacity: 1;
+    }
+}
+#log{
+    position: relative;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 733%;
+    left: 20%;
+   justify-content: space-evenly; 
+}
+.log1{
+    height: 22%;
+       width: 20%;
+}
+
+.lol{
+    position: absolute;
+    top: 887%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 26%;
+    width: 26%;
+}
+#button11{
+    position: relative;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    border-radius: 500px;
+    top: 20%;
+    left: 36%;
+   animation: butto11 2s  cubic-bezier(0.5, 1, 0.22, 1) infinite both; 
+}
+@keyframes butto11{
+    0%{
+        
+        height: 45%;
+        width: 65%;
+    }
+    50%{
+    height: 50%;
+    width: 70%;
+    }
+    100%{
+        height: 45%;
+        width: 65%;
+    }
+}
+#shadow9{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.274);
+    height: 65%;
+    width: 75%;
+    top: 20%;
+    left: 36%;
+    border-radius: 500px;
+    transform: translate(-50%,-50%);
+    animation: shado9 2s  cubic-bezier(0.5, 1, 0.22, 1)  infinite both;
+   
+}
+@keyframes shado9{
+    0%{
+        
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+    50%{
+    height: 65%;
+    width: 75%;
+
+    }
+    100%{
+        height: 43%;
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+#learn9{
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 102%;
+    font-weight: 500;
+}
+#last11{
+    position: relative;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 128%;
+     left: 30.3%;  
+    
+}
+#img18{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 580%;
+    height: 83%;
+    width: 85%;
+    left: 50%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#img20{
+    position: absolute;
+    position: fixed;
+    right: 0.6%;
+    height: 25%;
+    width: 3.5%;
+    top: 35%;
+}
